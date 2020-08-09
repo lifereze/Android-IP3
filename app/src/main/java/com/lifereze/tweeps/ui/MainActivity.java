@@ -1,8 +1,10 @@
-package com.lifereze.tweeps;
+package com.lifereze.tweeps.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.lifereze.tweeps.R;
 
 public class MainActivity extends AppCompatActivity {
 
