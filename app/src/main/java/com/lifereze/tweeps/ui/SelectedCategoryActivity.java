@@ -10,6 +10,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.kenneth.spoileralert.R;
 import com.kenneth.spoileralert.adapters.TweetsListAdapter;
 import com.kenneth.spoileralert.models.Tweet;
@@ -19,14 +22,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 
 public class SelectedCategoryActivity extends AppCompatActivity {
-    @Bind(R.id.categoryTextView) TextView mTextView;
-    @Bind(R.id.tweetsRecyclerView) RecyclerView mRecyclerView;
+    @BindView(R.id.categoryTextView) TextView mTextView;
+    @BindView(R.id.tweetsRecyclerView)
+    RecyclerView mRecyclerView;
     public static final String TAG = SelectedCategoryActivity.class.getSimpleName();
 
     public ArrayList<Tweet> mTweets = new ArrayList<>();

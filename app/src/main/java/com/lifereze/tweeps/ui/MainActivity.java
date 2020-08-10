@@ -2,7 +2,6 @@ package com.lifereze.tweeps.ui;
 
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -15,18 +14,17 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 import com.google.firebase.auth.FirebaseAuth;
-import com.kenneth.spoileralert.adapters.CustomArrayAdapter;
-import com.kenneth.spoileralert.R;
+import com.lifereze.tweeps.R;
+import com.lifereze.tweeps.adapters.CustomArrayAdapter;
 
 import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-    @Bind(R.id.categoriesListView) ListView mListView;
-    @Bind(R.id.headerTextView) TextView mTextView;
+    @BindView(R.id.categoriesListView) ListView mListView;
+    @BindView(R.id.headerTextView) TextView mTextView;
 
     private String[] categories = new String[] {"Sports","Celebrities","Politics","Tech","Music","Food","Fashion","Film","Business","Gossip","Trump","Conference","News","Gaming"};
 
