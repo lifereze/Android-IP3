@@ -1,25 +1,24 @@
 package com.lifereze.tweeps.adapters;
 
-
-package com.kenneth.spoileralert.adapters;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.kenneth.spoileralert.R;
-import com.kenneth.spoileralert.models.Tweet;
-import com.kenneth.spoileralert.ui.SpoilerTweetsActivity;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.lifereze.tweeps.R;
+import com.lifereze.tweeps.models.Tweet;
+import com.lifereze.tweeps.ui.SpoilerTweetsActivity;
 
 import org.parceler.Parcels;
 
 import java.util.ArrayList;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -52,8 +51,8 @@ public class TweetsListAdapter extends RecyclerView.Adapter<TweetsListAdapter.Tw
     }
 
     public class TweetViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
-        @Bind(R.id.tweetTextView) TextView mTweetTextView;
-        @Bind(R.id.tweetUserTextView) TextView mUserTextView;
+        @BindView(R.id.tweetTextView) TextView mTweetTextView;
+        @BindView(R.id.tweetUserTextView) TextView mUserTextView;
         private Context mContext;
 
         public TweetViewHolder(View itemView){
@@ -62,6 +61,7 @@ public class TweetsListAdapter extends RecyclerView.Adapter<TweetsListAdapter.Tw
             mContext=itemView.getContext();
             itemView.setOnClickListener(this);
         }
+        @SuppressLint("SetTextI18n")
         public void bindTweet(Tweet tweet){
             mUserTextView.setText("@"+tweet.getUser()+"\n says");
             mTweetTextView.setText(tweet.getTweetText());

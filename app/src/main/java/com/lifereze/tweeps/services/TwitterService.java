@@ -1,7 +1,7 @@
 package com.lifereze.tweeps.services;
 
-import com.kenneth.spoileralert.Constants;
-import com.kenneth.spoileralert.models.Tweet;
+import com.lifereze.tweeps.Constants;
+import com.lifereze.tweeps.models.Tweet;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,9 +19,7 @@ import okhttp3.Response;
 import se.akerfeldt.okhttp.signpost.OkHttpOAuthConsumer;
 import se.akerfeldt.okhttp.signpost.SigningInterceptor;
 
-/**
- * Created by Kenneth on 01/06/2017.
- */
+
 
 public class TwitterService {
     public static void findTweets(String topic, Callback callback){
