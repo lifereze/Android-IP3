@@ -1,33 +1,33 @@
 package com.lifereze.tweeps.ui;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kenneth.spoileralert.adapters.CustomArrayAdapter;
-import com.kenneth.spoileralert.R;
-import com.kenneth.spoileralert.models.Tweet;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.lifereze.tweeps.R;
+import com.lifereze.tweeps.models.Tweet;
 
 import org.parceler.Parcels;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class SpoilerTweetsActivity extends AppCompatActivity implements View.OnClickListener {
-    @Bind(R.id.tweeterTextView) TextView mTweeterTextView;
-    @Bind(R.id.extLinkTextView) TextView mLinkTextView;
-    @Bind(R.id.tweetContentTextView) TextView mTweetContextTextView;
-    @Bind(R.id.tweetsHashTagTextView) TextView mTweetHashTagTextView;
+    @BindView(R.id.tweeterTextView) TextView mTweeterTextView;
+    @BindView(R.id.extLinkTextView) TextView mLinkTextView;
+    @BindView(R.id.tweetContentTextView) TextView mTweetContextTextView;
+    @BindView(R.id.tweetsHashTagTextView) TextView mTweetHashTagTextView;
     private Tweet mTweet;
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
