@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:857671225329:android:a4da73b1cf8a36087dfe50",
         "android_client_info": {
-          "package_name": "com.lifereze.tweeps.ui"
+          "package_name": "com.lifereze.tweeps"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "857671225329-htl85dnt9ujdn00tr8hj0e6mi86uakd6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.lifereze.tweeps.ui",
+            "package_name": "com.lifereze.tweeps",
             "certificate_hash": "f5099b9a79cd4cd810bdebec8d9865f359751d27"
           }
         },
