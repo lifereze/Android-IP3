@@ -18,7 +18,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.lifereze.tweeps.R;
 import com.lifereze.tweeps.adapters.CustomArrayAdapter;
 
-import butterknife.Bind;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
