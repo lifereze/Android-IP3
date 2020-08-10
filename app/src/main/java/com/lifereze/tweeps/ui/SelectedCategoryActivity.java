@@ -2,7 +2,6 @@ package com.lifereze.tweeps.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -45,9 +44,9 @@ public class SelectedCategoryActivity extends AppCompatActivity {
         String categoryname = intent.getStringExtra("categoryname");
 
         getTweets(categoryname);
-        Typeface titleFont = Typeface.createFromAsset(getAssets(),"fonts/JOURNAL.TTF");
-
-        mTextView.setTypeface(titleFont);
+////        Typeface titleFont = Typeface.createFromAsset(getAssets(),"fonts/JOURNAL.TTF");
+//
+//        mTextView.setTypeface(titleFont);
         mTextView.setText("Tweets on "+categoryname);
 
     }

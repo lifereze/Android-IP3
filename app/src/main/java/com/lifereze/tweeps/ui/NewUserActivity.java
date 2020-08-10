@@ -78,7 +78,7 @@ public class NewUserActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     private void createAuthStateListener(){
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
+        mAuthListener = new  FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 final FirebaseUser user = firebaseAuth.getCurrentUser();
