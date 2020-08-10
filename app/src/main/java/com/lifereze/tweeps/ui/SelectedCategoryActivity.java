@@ -1,27 +1,23 @@
 package com.lifereze.tweeps.ui;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kenneth.spoileralert.R;
-import com.kenneth.spoileralert.adapters.TweetsListAdapter;
-import com.kenneth.spoileralert.models.Tweet;
-import com.kenneth.spoileralert.services.TwitterService;
+import com.lifereze.tweeps.R;
+import com.lifereze.tweeps.adapters.TweetsListAdapter;
+import com.lifereze.tweeps.models.Tweet;
+import com.lifereze.tweeps.services.TwitterService;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-import butterknife.Bind;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import okhttp3.Call;
@@ -38,6 +34,7 @@ public class SelectedCategoryActivity extends AppCompatActivity {
     private TweetsListAdapter mAdapter;
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,7 +54,7 @@ public class SelectedCategoryActivity extends AppCompatActivity {
 
     private void getTweets(String topic){
         final TwitterService twitterService = new TwitterService();
-        twitterService.findTweets(topic, new Callback() {
+        TwitterService.findTweets(topic, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 e.printStackTrace();
