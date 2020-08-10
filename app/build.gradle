@@ -20,6 +20,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
 
     buildTypes.each {
         it.buildConfigField 'String', 'TWITTER_CONSUMER_KEY', TwitterConsumerKey
