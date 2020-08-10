@@ -4,9 +4,7 @@ import org.parceler.Parcel;
 
 import java.util.ArrayList;
 
-/**
- * Created by Kenneth on 01/06/2017.
- */
+
 
 @Parcel
 public class Tweet {

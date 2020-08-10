@@ -21,9 +21,7 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by Kenneth on 01/06/2017.
- */
+
 
 public class TweetsListAdapter extends RecyclerView.Adapter<TweetsListAdapter.TweetViewHolder>{
     private ArrayList<Tweet> mTweets = new ArrayList<>();

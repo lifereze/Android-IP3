@@ -7,11 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.kenneth.spoileralert.R;
-
-/**
- * Created by Kenneth on 26/05/2017.
- */
+import com.lifereze.tweeps.R;
 
 public class CustomArrayAdapter extends BaseAdapter {
     private Context mContext;

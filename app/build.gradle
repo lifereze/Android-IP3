@@ -88,4 +88,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.squareup.okhttp3:okhttp:4.1.0'
+    compile 'se.akerfeldt:okhttp-signpost:1.1.0'
+    compile 'com.squareup.okhttp3:okhttp:4.1.0'
+    compile 'oauth.signpost:signpost-core:1.2.1.2'
 }
