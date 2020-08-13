@@ -73,5 +73,4 @@
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:textSize="15sp"/>
-
 </RelativeLayout>

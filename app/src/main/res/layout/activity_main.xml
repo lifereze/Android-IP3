@@ -6,22 +6,23 @@
     tools:context="com.lifereze.tweeps.ui.MainActivity">
 
     <TextView
+        android:id="@+id/headerTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Browse categories"
-        android:textAlignment="center"
-        android:textSize="40sp"
         android:background="@color/colorAccent"
-        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:id="@+id/headerTextView"
-        android:gravity="center_horizontal" />
+        android:text="Browse categories"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
 
     <ListView
+        android:id="@+id/categoriesListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/headerTextView"
-        android:id="@+id/categoriesListView"/>
+        android:layout_marginTop="1dp" />
 
 </RelativeLayout>
