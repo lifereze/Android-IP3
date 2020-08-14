@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
     <item
         android:id="@+id/action_search"
-        android:icon="@drawable/ic_search_white_24dp"
-        app:showAsAction="always"
-        app:actionViewClass="android.support.v7.widget.SearchView"
-        android:title="Search">
-    </item>
+        android:icon="@drawable/search24px"
+        android:title="Search"
+        app:actionLayout="@layout/activity_spoiler_tweets"
+        app:showAsAction="ifRoom|collapseActionView" >    </item>
 
 </menu>

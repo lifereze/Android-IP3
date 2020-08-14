@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1054775087086",
+    "firebase_url": "https://tweeps-241db.firebaseio.com",
+    "project_id": "tweeps-241db",
+    "storage_bucket": "tweeps-241db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054775087086:android:7e35caa11254dd2e68c8ff",
+        "android_client_info": {
+          "package_name": "com.lifereze.tweeps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054775087086-cn6osmm83soidr85rge101qmhp0r7lou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lifereze.tweeps",
+            "certificate_hash": "f5099b9a79cd4cd810bdebec8d9865f359751d27"
+          }
+        },
+        {
+          "client_id": "1054775087086-mbfhgsr8feq3b2hn91r106opj589idtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkBNBFbJiNqCC3BT2yBmo4bywKiMx0_vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054775087086-mbfhgsr8feq3b2hn91r106opj589idtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
