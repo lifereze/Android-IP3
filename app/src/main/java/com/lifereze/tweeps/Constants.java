@@ -11,4 +11,5 @@ public class Constants {
     public static final String TOKEN_SECRET = BuildConfig.TWITTER_TOKEN_SECRET;
     public static final String BASE_URL = "https://api.twitter.com/1.1/search/tweets.json?result_type=popular&lang=en&count=50";
     public static final String QUERY_PARAMETERS = "q";
+    public static final String PREFERENCES_LOCATION_KEY = ;
 }
