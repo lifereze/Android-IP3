@@ -1,7 +1,6 @@
 package com.lifereze.tweeps.ui;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.categoriesListView) ListView mListView;
     @BindView(R.id.headerTextView) TextView mTextView;
 
-    private String[] categories = new String[] {"Sports","Celebrities","Politics","Tech","Music","Food","Fashion","Film","Business","Gossip","Trump","Conference","News","Gaming"};
+    private String[] categories = new String[] {"Sports","Kenya","UEFA","Celebrities","Cars","Guns","Politics","Tech","Music","Food","Fashion","Film","Business","Gossip","Trump","Conference","News","Gaming","Hiphop"};
 
 
     @Override
@@ -34,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
-        Typeface titleFont = Typeface.createFromAsset(getAssets(),"fonts/JOURNAL.TTF");
-        mTextView.setTypeface(titleFont);
+//        Typeface titleFont = Typeface.createFromAsset(getAssets(),"fonts/JOURNAL.TTF");
+//        mTextView.setTypeface(titleFont);
 
         mListView.setAdapter(new CustomArrayAdapter(this,categories));
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

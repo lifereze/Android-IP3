@@ -1,35 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item>
-        <shape android:shape="rectangle">
-            <solid android:color="@color/colorAccent"/>
+        <shape android:shape="rectangle" >
+            <solid android:color="#33000000" /> <!-- Border colour -->
         </shape>
     </item>
-
-    <item
-        android:height="200dp"
-        android:width="240dp"
-        android:top="0dp"
-        android:left="-90dp">
-        <rotate
-            android:fromDegrees="40">
-            <shape android:shape="rectangle">
-                <solid android:color="@color/colorPrimaryDark"/>
-            </shape>
-        </rotate>
-    </item>
-    <item
-        android:height="200dp"
-        android:width="240dp"
-        android:top="-100dp"
-        android:left="-40dp">
-        <rotate
-            android:fromDegrees="40">
-            <shape android:shape="rectangle">
-                <solid android:color="@color/colorPrimaryDark"/>
-            </shape>
-        </rotate>
+    <item  android:bottom="2dp" >
+        <shape android:shape="rectangle" >
+            <solid android:color="#164586" />
+        </shape>
     </item>
 </layer-list>

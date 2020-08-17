@@ -109,6 +109,7 @@ public class NewUserActivity extends AppCompatActivity implements View.OnClickLi
 
                 }else {
                     Toast.makeText(NewUserActivity.this, "Authentication failed! Try Again", Toast.LENGTH_SHORT).show();
+                    mAuthProgressDialog.dismiss();
                 }
             }
         });

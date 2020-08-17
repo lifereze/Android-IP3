@@ -105,6 +105,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             Toast.makeText(LoginActivity.this, "Signed in!", Toast.LENGTH_SHORT).show();
                         }else {
                             Toast.makeText(LoginActivity.this, "Sign in failed!", Toast.LENGTH_SHORT).show();
+                            mLoginProgressDialog.dismiss();
                         }
                     }
                 });

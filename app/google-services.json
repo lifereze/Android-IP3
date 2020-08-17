@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1054775087086",
-    "firebase_url": "https://tweeps-241db.firebaseio.com",
-    "project_id": "tweeps-241db",
-    "storage_bucket": "tweeps-241db.appspot.com"
+    "project_number": "924385324916",
+    "firebase_url": "https://tweeps-d3c06.firebaseio.com",
+    "project_id": "tweeps-d3c06",
+    "storage_bucket": "tweeps-d3c06.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1054775087086:android:7e35caa11254dd2e68c8ff",
+        "mobilesdk_app_id": "1:924385324916:android:2bd10e0bd09cbbb6128621",
         "android_client_info": {
           "package_name": "com.lifereze.tweeps"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1054775087086-cn6osmm83soidr85rge101qmhp0r7lou.apps.googleusercontent.com",
+          "client_id": "924385324916-oh3ubld51culq4nrna3m6dgaecjo22nu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.lifereze.tweeps",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "1054775087086-mbfhgsr8feq3b2hn91r106opj589idtt.apps.googleusercontent.com",
+          "client_id": "924385324916-qa3kedrv2gh81ui46n2a88feckmevpbl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAkBNBFbJiNqCC3BT2yBmo4bywKiMx0_vs"
+          "current_key": "AIzaSyCCybDyJmhD9EsQeV9QOuT5g6K0gzNVeu0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1054775087086-mbfhgsr8feq3b2hn91r106opj589idtt.apps.googleusercontent.com",
+              "client_id": "924385324916-qa3kedrv2gh81ui46n2a88feckmevpbl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
